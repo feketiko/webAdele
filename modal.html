@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="modal fade" id="popup" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background:darkgray">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style="background: rgb(150, 20, 0) ">✖</button>
+                </div>
+                <div class="modal-body">
+                    <form role="form ">
+                        <div id="inblock" class="form-group ">
+                            <label for="name"><span class="glyphicon glyphicon-user "></span>Name</label>
+                            <input type="text " class="form-control " id="name " placeholder="Your name " required>
+                        </div>
+                        <div id="inblock" class="form-group ">
+                            <label for="email"><span class="glyphicon glyphicon-user "></span>Email</label>
+                            <input type="email" class="form-control " id="email " placeholder="Your email " required>
+                        </div>
+                        <div class="form-group ">
+                            <label for="sex"><span class="glyphicon glyphicon-user "></span>Sex:</label>
+                            <select name="category" id="category" style="color: gray">
+                                    <option value="1">Man</option>
+                                    <option value="1">Woman</option>
+                                    <option value="1">Other</option>
+                                    
+                            </select></div>
+                        <div class="form-group ">
+                            <label for="password"><span class="glyphicon glyphicon-eye-open "></span>Password</label>
+                            <input type="password" class="form-control " id="password " placeholder="Your password " required>
+                        </div>
+                        <div class="form-group ">
+                            <label for="tel"><span class="glyphicon glyphicon-user "></span>Phone number</label>
+                            <input type="tel" class="form-control " id="name " placeholder="Your phone number " required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="love">Tell me why you love ADELE:</label>
+                            <textarea class="form-control" id="love" rows="3" placeholder="C'mon, I need to hear your story!!"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="love">Your favourite song of Adele:</label>
+                            <textarea class="form-control" id="love" rows="2" placeholder="My favourite is ' Water Under the Bridge '!"></textarea>
+                        </div>
+                        <button type="submit " id="submit " class="btn btn-success btn-block " style="background: rgb(150, 20, 0) "><span class="glyphicon glyphicon-off "></span>Ok</button>
+                    </form>
+                </div>
+                <div class="modal-footer ">
+                </div>
+            </div>
+            <script>
+                $(document).ready(function() {
+                    $("#ank ").click(function() {
+                        $("#popup ").modal();
+                    });
+                });
+            </script>
+</body>
+
+</html>

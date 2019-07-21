@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Hello - Adele</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="is-preload landing">
+    <div id="page-wrapper">
+        <header id="header">
+            <h1 id="logo"><a href="index.html">ADELE</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Hello</a></li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li><a href="https://en.wikipedia.org/wiki/25_(Adele_album)">25</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/21_(Adele_album)">21</a></li>
+                    <li>
+                        <i id="ank" class="fa fa-align-justify" style="font-size:1em"></i>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="banner">
+            <div id="animated" class="content">
+                <h2>Wembley Stadium, June 29, 2018</h2>
+                <a href="gallery.html"> View Photos</a>
+            </div>
+            <a href="#one" class="goto-next scrolly">Next</a>
+        </section>
+        <section id="one" class="spotlight style1 bottom">
+            <span class="image fit main"><img src="img/img_1.jpg" alt="" /></span>
+            <div class="content">
+                <div class="container">
+                    <header>
+                        <h2> Искренность</h2>
+                    </header>
+                    <p>Кто-то говорит, что мир шоу-бизнеса жесток и сложен. И эти слова, безусловно, не лишены смысла. Однако порой и в этом мире коварства и интриг встречаются по-настоящему сказочные истории. Одна из таких – творческая биография британской
+                        певицы Адель.</p>
+                </div>
+            </div>
+            <a href="#two" class="goto-next scrolly">Next</a>
+        </section>
+
+        <section id="two" class="spotlight style2 right">
+            <span class="image fit main"><img src="img/img_2.jpg" alt="" /></span>
+            <div class="content">
+                <header>
+                    <h2>Детство</h2>
+                </header>
+                <p>Будущая звезда Адель Лори Блю Эдкинс появилась на свет 5 мая 1988 года в Тоттенхэме – районе на севере Лондона, который печально известен частыми массовыми беспорядками и процветающей организованной преступностью. По крайней мере, так
+                    дела обстояли в те годы. В этой части жили лишь эмигранты из арабских стран и бедняки, причем семья будущей певицы относилась ко второй категории.</p>
+
+            </div>
+            <a href="#three" class="goto-next scrolly">Next</a>
+        </section>
+        <section id="three" class="spotlight style3 left">
+            <span class="image fit main bottom"><img src="img/sendmylove.jpg" alt="" /></span>
+            <div class="content">
+                <header>
+                    <h2>Адель Сейчас</h2>
+                </header>
+                <p>К маю 2018 года Адель заработала состояние в размере $190 миллионов, что обеспечило ей первое место в рейтинге самых богатых исполнителей Великобритании. Тогда же Адель побывала на свадьбе Меган Маркл и принца Гарри и тепло поздравила
+                    новобрачных, а вскоре анонсировала дату выхода четвертого альбома – он выйдет в декабре 2019 года, в канун католического Рождества.
+                </p>
+            </div>
+        </section>
+
+        <div class="modal fade" id="popup" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content" style="background:darkgray">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" style="background: rgb(150, 20, 0) ">✖</button>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form ">
+                            <div id="inblock" class="form-group ">
+                                <label for="name"><span class="glyphicon glyphicon-user "></span>Name</label>
+                                <input type="text " class="form-control " id="name " placeholder="Your name " required>
+                            </div>
+                            <div id="inblock" class="form-group ">
+                                <label for="email"><span class="glyphicon glyphicon-user "></span>Email</label>
+                                <input type="email" class="form-control " id="email " placeholder="Your email " required>
+                            </div>
+                            <div class="form-group ">
+                                <label for="sex"><span class="glyphicon glyphicon-user "></span>Sex:</label>
+                                <select name="category" id="category" style="color: gray">
+                                        <option value="1">Man</option>
+                                        <option value="1">Woman</option>
+                                        <option value="1">Other</option>
+                                        
+                                </select></div>
+                            <div class="form-group ">
+                                <label for="password"><span class="glyphicon glyphicon-eye-open "></span>Password</label>
+                                <input type="password" class="form-control " id="password " placeholder="Your password " required>
+                            </div>
+                            <div class="form-group ">
+                                <label for="tel"><span class="glyphicon glyphicon-user "></span>Phone number</label>
+                                <input type="tel" class="form-control " id="name " placeholder="Your phone number " required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="love">Tell me why you love ADELE:</label>
+                                <textarea class="form-control" id="love" rows="3" placeholder="C'mon, I need to hear your story!!"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="love">Your favourite song of Adele:</label>
+                                <textarea class="form-control" id="love" rows="2" placeholder="My favourite is ' Water Under the Bridge '!"></textarea>
+                            </div>
+                            <button type="submit " id="submit " class="btn btn-success btn-block " style="background: rgb(150, 20, 0) "><span class="glyphicon glyphicon-off "></span>Ok</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer ">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer id="footer ">
+            <ul class="icons">
+                <li>
+                    <a href="https://twitter.com/adele" class="icon alt fa-twitter"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/adele/?hl=en" class="icon alt fa-instagram"></a>
+                </li>
+                <li>
+                    <a href="https://itunes.apple.com/us/artist/adele/262836961" class="icon alt fa-apple"></a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/album/7uwTHXmFa1Ebi5flqBosig" class="icon alt fa-spotify"></a>
+                </li>
+
+
+            </ul>
+            <ul class="copyright">
+                &copy; Untitled. All rights reserved.
+            </ul>
+        </footer>
+
+    </div>
+    <script>
+        $(document).ready(function() {
+            $("#ank ").click(function() {
+                $("#popup ").modal();
+            });
+        });
+    </script>
+    <script src='js/main.js'></script>
+</body>
+
+</html>
